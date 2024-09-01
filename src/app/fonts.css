@@ -5,6 +5,7 @@
   font-style: normal;
   font-weight: normal;
   src: local("Neutral Face"), url("./fonts/NeutralFace.woff") format("woff");
+  display: "swap";
 }
 
 @font-face {
@@ -13,6 +14,7 @@
   font-weight: normal;
   src: local("Neutral Face Bold"),
     url("./fonts/NeutralFaceBold.woff") format("woff");
+  display: "swap";
 }
 
 body {
