@@ -8,7 +8,7 @@ import HeadComponent from "./components/HeadComponent";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export default function RootLayout({ children }) {
   return (
