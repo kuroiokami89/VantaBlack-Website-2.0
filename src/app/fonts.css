@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+  font-family: "Neutral Face";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Neutral Face"), url("./fonts/NeutralFace.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Neutral Face Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Neutral Face Bold"),
+    url("./fonts/NeutralFaceBold.woff") format("woff");
+}
+
+body {
+  font-family: "Neutral Face";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Neutral Face Bold";
+}
+
+h1 {
+  font-size: 7rem;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 7.5rem;
+}
+
+h3 {
+  font-size: 25px !important;
+}
+
+p {
+  font-family: "Neutral Face";
+}
+
+a {
+  font-family: "Neutral Face";
+  color: white;
+}
+
+.section-title a {
+  font-family: "Neutral Face Bold";
+}
