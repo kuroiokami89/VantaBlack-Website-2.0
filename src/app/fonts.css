@@ -4,7 +4,7 @@
   font-family: "Neutral Face";
   font-style: normal;
   font-weight: normal;
-  src: local("Neutral Face"), url("./fonts/NeutralFace.woff") format("woff");
+  src: local("Neutral Face"), url("./fonts/NeutralFace.ttf") format("truetype");
   display: "swap";
 }
 
@@ -18,7 +18,7 @@
 }
 
 body {
-  font-family: "Neutral Face";
+  font-family: "Neutral Face" !important;
 }
 
 h1,
@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Neutral Face Bold";
+  font-family: "Neutral Face";
 }
 
 h1 {
