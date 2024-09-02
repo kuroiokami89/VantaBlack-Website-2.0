@@ -17,6 +17,15 @@
   display: "swap";
 }
 
+/* From Public Directory */
+@font-face {
+  font-family: "Kurale";
+  src: url("./fonts/NeutralFace.ttf");
+  font-style: medium;
+  font-weight: normal;
+  font-display: swap;
+}
+
 body {
   font-family: "Neutral Face" !important;
 }
@@ -27,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Neutral Face";
+  font-family: "Kurale" !important;
 }
 
 h1 {
