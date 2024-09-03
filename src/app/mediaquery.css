@@ -189,13 +189,11 @@
   }
 
   #footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
     margin: 0;
     padding: 0;
     height: 100vh !important;
+    gap: 50px;
   }
 
   .footer-container {
@@ -215,7 +213,6 @@
   }
 
   .social-links {
-    margin-top: 50px;
     flex-direction: column;
     gap: 30px;
   }
