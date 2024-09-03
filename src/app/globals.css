@@ -140,9 +140,14 @@ p {
 }
 
 .email {
+  color: rgba(255, 255, 255, 0.45);
   font-size: 17rem;
   width: fit-content;
   cursor: pointer;
+}
+
+.email:hover {
+  color: white;
 }
 
 #footer a {

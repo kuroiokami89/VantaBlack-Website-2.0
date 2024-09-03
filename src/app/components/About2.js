@@ -23,9 +23,11 @@ export default function About2() {
           <img id="about-image" src="/Me.jpg" alt="Sergio Allushaj" />
         </div>
         <p>
-          I specialize in front-end development with expertise in HTML, CSS,
-          JavaScript, and Next.js. My focus is on creating beautiful and
-          functional websites with a modern look and excellent user experience.
+          With nearly two years of experience in front-end development, <br />
+          I have gained expertise in HTML, CSS, JavaScript, and Next.js. <br />{" "}
+          <br />I focus on creating modern, responsive, and highly functional
+          websites that offer a unique design and an exceptional user
+          experience.
         </p>
       </div>
     </div>

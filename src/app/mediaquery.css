@@ -169,6 +169,10 @@
     font-size: 1.3rem;
   }
 
+  br {
+    display: none;
+  }
+
   .blocco {
     margin-bottom: 150px !important;
     margin: 0 30px;
