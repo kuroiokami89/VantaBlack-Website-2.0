@@ -33,7 +33,7 @@ export default function Header() {
   return (
     <header id="header" className={`${NeutralFace.className}`}>
       <div className="header-container blocco">
-        <a id="logo" href="/Portfolio-Vantablack/">
+        <a id="logo" href="#top">
           vantaBlack
         </a>
         <div className="header-anchors">

@@ -12,6 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <HeadComponent />
       <body>
+        <div id="top"></div>
         <Header />
         {children}
         <Footer />
