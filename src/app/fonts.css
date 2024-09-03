@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-@font-face {
+/* @font-face {
   font-family: "Neutral Face";
   font-style: normal;
   font-weight: normal;
@@ -18,7 +18,7 @@
 }
 
 /* From Public Directory */
-@font-face {
+/* @font-face {
   font-family: "Kurale";
   src: url("./fonts/NeutralFace.ttf");
   font-style: medium;
@@ -38,6 +38,7 @@ h5,
 h6 {
   font-family: "Kurale" !important;
 }
+  */
 
 h1 {
   font-size: 7rem;
@@ -52,15 +53,14 @@ h3 {
   font-size: 25px !important;
 }
 
-p {
+/* p {
   font-family: "Neutral Face";
-}
+} */
 
 a {
-  font-family: "Neutral Face";
   color: white;
 }
 
-.section-title a {
+/* .section-title a {
   font-family: "Neutral Face Bold";
-}
+} */
