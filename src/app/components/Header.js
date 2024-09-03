@@ -37,14 +37,14 @@ export default function Header() {
           vantaBlack
         </a>
         <div className="header-anchors">
-          <a className="link" href="/Portfolio-Vantablack/about">
-            ABOUT
-          </a>
           <a className="link" href="#projects">
             PROJECTS
           </a>
-          <a className="link" href="#skills">
-            SKILLS
+          <a className="link" href="#about">
+            ABOUT
+          </a>
+          <a className="link" href="#footer">
+            CONTACT
           </a>
         </div>
       </div>
