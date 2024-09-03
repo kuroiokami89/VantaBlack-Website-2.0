@@ -12,7 +12,7 @@ export default function Intro() {
         <h1>
           SERGIO ALLUSHAJ
           <br />
-          JUNIOR FRONT-END DEVELOPER
+          FRONT-END DEVELOPER
           <br />
           WEB GRAPHIC DESIGNER
           <br />
