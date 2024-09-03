@@ -24,26 +24,18 @@
     height: 100%;
   }
 
-  .about-me {
-    height: 550px;
-  }
-
-  .about-me p {
-    margin: 0;
-  }
-
-  #about h1 {
-    font-size: 3.5rem !important;
-    line-height: 4.5rem;
-  }
-
   .project-list {
     row-gap: 200px;
   }
 
   h1 {
     font-size: 6rem !important;
-    line-height: 80px;
+    line-height: 1.05;
+  }
+
+  h2 {
+    font-size: 6.5rem;
+    line-height: 1;
   }
 
   .project-img {
@@ -51,8 +43,16 @@
     height: 650px;
   }
 
-  .work-exp p {
-    margin-right: 200px;
+  .social-links {
+    gap: 190px;
+  }
+
+  .email {
+    font-size: 12rem;
+  }
+
+  #about {
+    margin-bottom: 0 !important;
   }
 }
 
@@ -121,23 +121,9 @@
     overflow: hidden !important;
   }
 
-  #skills,
   #projects {
     margin: 0 30px;
     text-align: left;
-  }
-
-  #skills p,
-  #skills h2 {
-    margin: 0;
-  }
-
-  .tech-list i {
-    font-size: 3rem !important;
-  }
-
-  .work-exp p {
-    margin-right: 100px;
   }
 }
 
@@ -193,20 +179,11 @@
     margin-top: 0;
   }
 
-  #about h1 {
-    font-size: 2.5rem !important;
-    line-height: 3.5rem;
-  }
-
   .about-container {
     flex-direction: column;
     row-gap: 20px;
     margin-top: 50px;
   }
-
-  /* .about-container div {
-    flex: auto;
-  } */
 
   #footer {
     display: flex;
@@ -239,10 +216,6 @@
     flex-direction: column;
     gap: 30px;
   }
-
-  /* #projects {
-    margin-bottom: 0 !important;
-  } */
 }
 
 @media screen and (max-width: 480px) {
