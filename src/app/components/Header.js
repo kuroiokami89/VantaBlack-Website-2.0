@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { NeutralFace, NeutralFaceBold } from "./fonts"; // Import the font from the separate file
 
 export default function Header() {
   useEffect(() => {
@@ -30,7 +31,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header id="header">
+    <header id="header" className={`${NeutralFace.className}`}>
       <div className="header-container blocco">
         <a id="logo" href="/Portfolio-Vantablack/">
           vantaBlack

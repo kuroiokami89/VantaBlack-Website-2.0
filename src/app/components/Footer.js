@@ -1,10 +1,15 @@
 "use client";
 
 import { useEffect } from "react";
+import { NeutralFace, NeutralFaceBold } from "./fonts"; // Import the font from the separate file
 
 export default function Footer() {
   return (
-    <footer id="footer" style={{ margin: "0 30px" }}>
+    <footer
+      id="footer"
+      style={{ margin: "0 30px" }}
+      className={`${NeutralFace.className}`}
+    >
       <span style={{ color: "rgba(255, 255, 255, 0.45)", fontSize: "1.65rem" }}>
         INTERESTED IN MY PROJECTS ?
       </span>
@@ -12,7 +17,7 @@ export default function Footer() {
         <a
           href="mailto:sergioallushaj@gmail.com"
           id="emailLink"
-          className="email"
+          className={`email ${NeutralFaceBold.className}`}
         >
           LET'S TALK
         </a>

@@ -3,6 +3,7 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import Image from "next/image";
+import { NeutralFace, NeutralFaceBold } from "./fonts";
 
 export default function About() {
   const itemsRef = useRef([]);
