@@ -166,7 +166,7 @@
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .blocco {
@@ -176,11 +176,16 @@
 
   #about {
     margin-top: 0;
+    margin-bottom: 150px !important;
   }
 
   .about-container {
     flex-direction: column;
     margin-top: 50px;
+  }
+
+  .about-title-container h2 {
+    margin: 0 !important;
   }
 
   #footer {
@@ -213,6 +218,10 @@
     margin-top: 50px;
     flex-direction: column;
     gap: 30px;
+  }
+
+  #footer span {
+    font-size: 1.2rem !important;
   }
 }
 
