@@ -29,19 +29,27 @@
   }
 
   h1 {
-    font-size: 5rem !important;
+    font-size: 5rem;
     line-height: 1.05;
   }
 
   h2 {
     font-size: 6.5rem;
-    line-height: 1;
+    line-height: 1.05;
+  }
+
+  #projects h2 {
+    font-size: 5.5rem;
   }
 
   .project-img {
     width: 500px;
     height: 650px;
   }
+
+  /* #footer {
+    height: 100vh !important;
+  } */
 
   .social-links {
     gap: 190px;
@@ -164,15 +172,6 @@
   .blocco {
     margin-bottom: 150px !important;
     margin: 0 30px;
-  }
-
-  .header-anchors {
-    font-size: 1.25rem;
-  }
-
-  .header-bottom {
-    padding: 0;
-    justify-content: center;
   }
 
   #about {

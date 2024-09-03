@@ -10,7 +10,7 @@ export default function Intro() {
     <div id="intro" className={`blocco ${NeutralFaceBold.className}`}>
       <div className="intro-container">
         <h1>
-          SERGIO ALLUSHAJ
+          VANTABLACK
           <br />
           FRONT-END DEVELOPER
           <br />
