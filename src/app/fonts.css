@@ -1,45 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-/* @font-face {
-  font-family: "Neutral Face";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Neutral Face"), url("./fonts/NeutralFace.ttf") format("truetype");
-  display: "swap";
-}
-
-@font-face {
-  font-family: "Neutral Face Bold";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Neutral Face Bold"),
-    url("./fonts/NeutralFaceBold.woff") format("woff");
-  display: "swap";
-}
-
-/* From Public Directory */
-/* @font-face {
-  font-family: "Kurale";
-  src: url("./fonts/NeutralFace.ttf");
-  font-style: medium;
-  font-weight: normal;
-  font-display: swap;
-}
-
-body {
-  font-family: "Neutral Face" !important;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Kurale" !important;
-}
-  */
-
 h1 {
   font-size: 7rem;
   line-height: 1;
@@ -53,14 +13,8 @@ h3 {
   font-size: 25px !important;
 }
 
-/* p {
-  font-family: "Neutral Face";
-} */
-
-a {
+a,
+.link-btn {
   color: white;
+  background: transparent;
 }
-
-/* .section-title a {
-  font-family: "Neutral Face Bold";
-} */

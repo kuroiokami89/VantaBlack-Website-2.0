@@ -3,11 +3,11 @@ import localFont from "next/font/local";
 
 // Load the font outside of any client components
 const NeutralFace = localFont({
-  src: "./NeutralFace.ttf",
+  src: "../fonts/NeutralFace.ttf",
 });
 
 const NeutralFaceBold = localFont({
-  src: "./NeutralFaceBold.ttf",
+  src: "../fonts/NeutralFaceBold.ttf",
 });
 
 export { NeutralFace, NeutralFaceBold };

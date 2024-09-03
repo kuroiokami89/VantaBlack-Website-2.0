@@ -1,7 +1,5 @@
 "use client";
 
-import Image from "next/image";
-import { Scrollbar } from "smooth-scrollbar-react";
 import Intro from "./components/Intro";
 import Projects from "./components/Projects";
 import About from "./components/About";

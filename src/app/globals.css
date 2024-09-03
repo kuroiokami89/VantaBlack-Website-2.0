@@ -47,12 +47,17 @@ body {
 }
 
 /** Inizio Stili Globali **/
-a {
+a,
+.link-btn {
   font-size: 1.25rem;
   font-weight: 100;
   text-decoration: unset !important;
   position: relative;
   text-decoration: none;
+}
+
+.link-btn {
+  cursor: pointer;
 }
 
 p {

@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect } from "react";
 import { NeutralFace, NeutralFaceBold } from "./fonts"; // Import the font from the separate file
 
 export default function Footer() {
@@ -29,10 +28,18 @@ export default function Footer() {
         <a className="link" href="https://github.com/kuroiokami89">
           GITHUB
         </a>
-        <a className="link" href="assets/CV ALLUSHAJ SERGIO (ITA).pdf">
+        <a
+          href="/ALLUSHAJ-SERGIO-(ITA).pdf"
+          download="ALLUSHAJ SERGIO CV ITA.pdf"
+          className="link"
+        >
           DOWNLOAD.CV ITA
         </a>
-        <a className="link" href="assets/ALLUSHAJ SERGIO CV 2024.pdf">
+        <a
+          href="/ALLUSHAJ -SERGIO-CV-2024.pdf"
+          download="ALLUSHAJ SERGIO CV 2024.pdf"
+          className="link"
+        >
           DOWNLOAD.CV ENG
         </a>
       </div>
