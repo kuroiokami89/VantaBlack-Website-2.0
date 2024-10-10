@@ -1,16 +1,27 @@
 "use client";
 
-import Intro from "./components/Intro";
-import Projects from "./components/Projects";
 import About from "./components/About";
-import About2 from "./components/About2";
+import Footer from "./components/Footer";
+import HomeHero from "./components/HomeHero";
+import AncorSideBar from "./components/AncorSideBar";
 
 export default function Home() {
   return (
     <>
-      <Intro />
-      <Projects />
-      <About2 />
+      <div
+        className="page-container"
+        style={{
+          display: "flex",
+        }}
+      >
+        <div className="snap-container">
+          <div id="top"></div>
+          <HomeHero />
+          <About />
+          <Footer />
+        </div>
+        <AncorSideBar />
+      </div>
     </>
   );
 }

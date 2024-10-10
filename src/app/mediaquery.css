@@ -1,233 +1,101 @@
 @media screen and (max-width: 1750px) {
-  .header-bottom {
-    padding: 0;
-    justify-content: center;
-  }
-
-  .project-container {
-    column-gap: 0;
-  }
-
-  .work-list {
-    margin-right: 0;
-  }
 }
 
 @media screen and (max-width: 1450px) {
-  .blocco,
-  #footer {
-    margin: 0 5%;
-  }
-
-  #works {
-    width: 100%;
-    height: 100%;
-  }
-
-  .project-list {
-    row-gap: 200px;
-  }
-
-  h1 {
-    font-size: 5rem;
-    line-height: 1.05;
-  }
-
-  h2 {
-    font-size: 6.5rem;
-    line-height: 1.05;
-  }
-
-  #projects h2 {
-    font-size: 5.5rem;
-  }
-
-  .project-img {
-    width: 500px;
-    height: 650px;
-  }
-
-  /* #footer {
-    height: 100vh !important;
-  } */
-
-  .social-links {
-    gap: 190px;
-  }
-
-  .email {
-    font-size: 12rem;
-  }
-
-  #about {
-    margin-bottom: 0 !important;
-  }
 }
 
 @media screen and (max-width: 1024px) {
   h1 {
     font-size: 3.5rem !important;
-  }
-
-  #header {
-    display: none !important;
-  }
-
-  #footer {
-    margin: 0 30px;
-  }
-
-  #projects h2 {
-    margin-left: 0;
-  }
-
-  .project-container {
-    flex-direction: column;
-  }
-
-  .project-img {
-    width: 100%;
-    height: 500px;
-  }
-
-  .project-list-right {
-    margin-top: 100px;
-  }
-
-  .project-list-left,
-  .project-list-right {
-    row-gap: 100px;
-  }
-
-  #works {
-    padding: 50px 30px;
-  }
-
-  .header-links img {
-    max-width: 43px;
-  }
-
-  .header-container {
-    width: 100%;
-    row-gap: 50px;
-    padding: 20px 30px;
-  }
-
-  .header-container img {
-    margin-top: 10px;
-  }
-
-  .project-list-carousel {
-    width: 100% !important;
-  }
-
-  .project-list {
-    flex-direction: column;
-  }
-
-  .project-list-carousel {
-    overflow: hidden !important;
-  }
-
-  #projects {
-    margin: 0 30px;
-    text-align: left;
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 768px) {
-  body,
-  html *,
-  body * {
-    cursor: none;
+  .snap-container {
+    scroll-snap-type: none;
   }
 
-  button,
-  a {
-    cursor: auto;
+  .section {
+    height: 100%;
+  }
+
+  .snap-container {
+    overflow: unset;
+    height: 100%;
   }
 
   h1 {
     line-height: 50px;
-    font-size: 3rem !important;
   }
 
   h2 {
-    font-size: 3rem !important;
-    line-height: unset;
-    margin-bottom: 20px !important;
-    line-height: 1.1;
+    width: 100%;
+    font-size: 2.5rem !important;
+    text-align: center;
   }
 
   h3 {
-    font-size: 1.5rem !important;
-    line-height: unset;
-    margin-bottom: 20px !important;
+    font-size: 2rem !important;
+    text-align: center;
   }
 
   p {
-    font-size: 1.3rem;
+    font-size: 1.5rem !important;
   }
 
-  #about br {
-    display: none;
+  .about-me,
+  .skills-text {
+    padding: 30px;
   }
 
-  .blocco {
-    margin-bottom: 150px !important;
-    margin: 0 30px;
-  }
-
-  #about {
-    margin-top: 0;
-    margin-bottom: 150px !important;
-  }
-
-  .about-container {
-    flex-direction: column;
-    margin-top: 50px;
-  }
-
-  .about-title-container h2 {
-    margin: 0 !important;
+  .skills-text {
+    padding-bottom: 0;
   }
 
   #footer {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    height: 100vh !important;
-    gap: 90px;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
   }
 
   .footer-container {
     flex-direction: column;
-    gap: 50px;
-    align-items: center;
+    gap: 5px;
+    text-align: center;
   }
 
-  .footer-socials {
+  #tech {
+    padding: 50px;
     flex-direction: column;
-    align-items: center;
-    row-gap: 30px;
+    row-gap: 50px;
   }
 
-  .email {
-    font-size: 6.5rem;
-  }
-
-  .social-links {
+  .footer-container > div {
+    display: flex;
     flex-direction: column;
-    gap: 30px;
   }
 
-  #footer span {
-    font-size: 1.2rem !important;
+  #skills {
+    align-items: unset;
+    text-align: left;
+    row-gap: 0;
+  }
+
+  .tech-list {
+    margin-top: 50px;
+    row-gap: 40px;
+    column-gap: 40px;
+  }
+
+  #about p {
+    margin-right: 0;
+  }
+
+  .about-me {
+    margin-top: 50px;
   }
 }
 
 @media screen and (max-width: 480px) {
-  #footer {
-    height: 100vh !important;
-  }
 }

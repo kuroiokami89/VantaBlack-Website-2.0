@@ -1,21 +1,35 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
 h1 {
-  font-size: 7rem;
+  font-size: 10rem;
   line-height: 1;
 }
 
 h2 {
-  font-size: 7.5rem;
-  line-height: 1;
+  width: 100%;
+  font-size: 5.5rem;
 }
 
 h3 {
-  font-size: 25px !important;
+  font-size: 1.8rem;
 }
 
-a,
-.link-btn {
-  color: white;
-  background: transparent;
+p {
+  font-size: 1.65rem;
+  line-height: 1.35;
+}
+
+.btn {
+  font-size: 1.3rem;
+}
+
+#footer {
+  font-size: 1.5rem;
+}
+
+#footer h2 {
+  font-size: 14.6rem;
+  text-align: center;
+}
+
+.tech-list i {
+  font-size: 3.5rem;
 }

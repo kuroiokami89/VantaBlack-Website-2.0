@@ -1,47 +1,26 @@
-"use client";
-
-import { NeutralFace, NeutralFaceBold } from "./fonts"; // Import the font from the separate file
+import { Thedus, BunkenTechSansProLight } from "./fonts";
 
 export default function Footer() {
   return (
     <footer
       id="footer"
-      style={{ margin: "0 30px" }}
-      className={`${NeutralFace.className}`}
+      className={`section ${BunkenTechSansProLight.className}`}
     >
-      <span style={{ color: "rgba(255, 255, 255, 0.45)", fontSize: "1.65rem" }}>
-        INTERESTED IN MY PROJECTS ?
-      </span>
-      <div className="section-title" style={{ position: "relative" }}>
-        <a
-          href="mailto:sergioallushaj@gmail.com"
-          id="emailLink"
-          className={`email ${NeutralFaceBold.className}`}
-        >
-          LET'S TALK
-        </a>
-      </div>
-      <div className="social-links">
-        <a href="https://www.linkedin.com/in/sergio-allushaj-a92b9717a/">
-          LINKEDIN
-        </a>
-        <a className="link" href="https://github.com/kuroiokami89">
-          GITHUB
-        </a>
-        <a
-          href="/ALLUSHAJ-SERGIO-(ITA).pdf"
-          download="ALLUSHAJ SERGIO CV ITA.pdf"
-          className="link"
-        >
-          DOWNLOAD.CV ITA
-        </a>
-        <a
-          href="/ALLUSHAJ -SERGIO-CV-2024.pdf"
-          download="ALLUSHAJ SERGIO CV 2024.pdf"
-          className="link"
-        >
-          DOWNLOAD.CV ENG
-        </a>
+      <h2 className={`title ${Thedus.className}`}>GET IN TOUCH</h2>
+      <div className="footer-container">
+        <div className="footer-section">
+          <a>sergioallushaj@gmail.com</a>
+          <span>+39 389 290 3924</span>
+        </div>
+        <div className="footer-section">
+          <a>ITALY - CASTELFRANCO VENETO</a>
+          <span>XXXX XXXXX XXXXXXXXX</span>
+        </div>
+        <div className="footer-section">
+          <a>FACEBOOK</a>
+          <a>FACEBOOK</a>
+          <a>FACEBOOK</a>
+        </div>
       </div>
     </footer>
   );
