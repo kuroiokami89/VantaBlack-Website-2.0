@@ -15,7 +15,7 @@ const Furore = localFont({
 });
 
 const Nikea = localFont({
-  src: "../fonts/Nikea.otf",
+  src: "../fonts/NIKEA.otf",
 });
 
 const FontspringBold = localFont({
